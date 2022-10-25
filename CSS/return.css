@@ -1,0 +1,18 @@
+.btn__return {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 15px;
+  background-color: #5a5a5d;
+  color: #fb8c00;
+}
+
+.returndark {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 15px;
+  background-color: #e4e4e4;
+  color: #fb8c00;
+}
+

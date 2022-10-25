@@ -1,0 +1,11 @@
+.section__listContainer {
+  text-align: left;
+}
+
+.list__text {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  min-width: 170px;
+}

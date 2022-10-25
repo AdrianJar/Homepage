@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrian Jaroszuk</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/tabel.css" rel="stylesheet" />
+    <link href="CSS/list.css" rel="stylesheet" />
+    <link href="CSS/return.css" rel="stylesheet" />
+    <link href="CSS/lightMode.css" rel="stylesheet" />
+    <link href="CSS/navigation.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </head>
+
+  <body class="body" id="body">
+    <nav class="navigation text">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <i data-feather="home" class="navigation__icon"></i>
+          <a class="link" href="#O-mnie"> O mnie</a>
+        </li>
+        <li class="navigation__item">
+          <i data-feather="book-open" class="navigation__icon"></i>
+          <a class="link" href="#Wykształcenie">Wykształcenie</a>
+        </li>
+        <li class="navigation__item">
+          <i data-feather="award" class="navigation__icon"></i>
+          <a class="link" href="#Kariera">Kariera</a>
+        </li>
+        <li class="navigation__item">
+          <i data-feather="user" class="navigation__icon"></i>
+          <a class="link" href="#Moje-zainteresowania">Moje zainteresowania</a>
+        </li>
+        <li class="navigation__item">
+          <i data-feather="mail" class="navigation__icon"></i>
+          <a class="link" href="#Kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <h1 class="header__title text">Adrian Jaroszuk FrontendDev</h1>
+    </header>
+    <section class="section text">
+      <h2 class="section__header" id="O-mnie">O mnie!</h2>
+      <p>
+        Mam na imię Adrian mam 25 lat. W tym roku urodził się mój synek,
+        <strong>Leo</strong> moja motywacja każdego dnia. Przed zostaniem tatą
+        byłem barmanem fajna praca gdy się studiuje, ale po prawie roku przerwy
+        czas na coś nowego, nowe wyzwanie które przy okazji zapewni mi i mojej
+        rodzinie lepsze życie.
+      </p>
+    </section>
+
+    <section class="section text">
+      <h2 class="section__header" id="Wykształcenie">Wykształcenie</h2>
+      <div class="section__container">
+        <table class="section__tableContainer">
+          <caption class="table__caption">
+            Wykształcenie
+          </caption>
+          <thead>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="col">
+                Nazwa szkoły
+              </th>
+              <th class="table__cell table__cell--header" scope="col">Lata</th>
+              <th class="table__cell table__cell--header" scope="col">
+                Profil
+              </th>
+              <th class="table__cell table__cell--header" scope="col">
+                Ukończono?
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Politechnika
+              </th>
+              <td class="table__cell">2018-2021</td>
+              <td class="table__cell">Logistyka</td>
+              <td class="table__cell"><i data-feather="check"></i></td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Politechnika
+              </th>
+              <td class="table__cell">2017-2018</td>
+              <td class="table__cell">Mechatronika</td>
+              <td class="table__cell"></td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Liceum
+              </th>
+              <td class="table__cell">2014-2017</td>
+              <td class="table__cell">Bezpieczeństwo narodowe</td>
+              <td class="table__cell"><i data-feather="check"></i></td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Gimnazjum
+              </th>
+              <td class="table__cell">2011-2014</td>
+              <td class="table__cell"></td>
+              <td class="table__cell"><i data-feather="check"></i></td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Szkoła Podstawowa
+              </th>
+              <td class="table__cell">2005-2011</td>
+              <td class="table__cell"></td>
+              <td class="table__cell"><i data-feather="check"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section text">
+      <h2 class="section__header" id="Kariera">Kariera</h2>
+      <div class="section__container">
+        <table class="section__tableContainer">
+          <caption class="table__caption">
+            Kariera
+          </caption>
+          <thead>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="col">
+                Miejsce pracy
+              </th>
+              <th class="table__cell table__cell--header" scope="col">
+                Stanowisko
+              </th>
+              <th class="table__cell table__cell--header" scope="col">Lata</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">TBA</th>
+              <td class="table__cell">FrontendDev</td>
+              <td class="table__cell">2023-xxxx (hopefully)</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Little Hell Pub
+              </th>
+              <td class="table__cell">Barman</td>
+              <td class="table__cell">2019-2021</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Black Diamond Club
+              </th>
+              <td class="table__cell">Barback/Barman</td>
+              <td class="table__cell">2018-2019</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Poradnia specjalistyczna
+              </th>
+              <td class="table__cell">Recepcja</td>
+              <td class="table__cell">2018</td>
+            </tr>
+            <tr class="table__row">
+              <th
+                class="table__cell table__cell--header"
+                scope="row"
+                rowspan="2"
+              >
+                Subway
+              </th>
+              <td class="table__cell">Kierownik zmiany</td>
+              <td class="table__cell">2017-2018</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Artysta kanapkowy</td>
+              <td class="table__cell">2016-2017</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section text">
+      <h2 class="section__header" id="Moje-zainteresowania">
+        Moje zainteresowania
+      </h2>
+      <article>
+        <div class="section__listContainer">
+          <ol>
+            <li>Gry komputerowe <i data-feather="monitor"></i></li>
+            <ul class="list__text">
+              Odkąd pamiętam zawsze lubiłem gry komputerowe. I tak zostało do
+              dziś, ale prawda jest taka, że gry to nie wszystko. Fajnie czasem
+              podlączyć się do sieci, ale to nie wszystko
+            </ul>
+            <li>Piłka nożna ⚽️</li>
+            <ul class="list__text">
+              Jedyny sport który towarzyszy mi cały życie i tak zostanie. Wierny
+              fan Fc Barcelony od roku 2006.
+            </ul>
+            <li>Motoryzacja 🏎</li>
+            <ul class="list__text">
+              Interesuję się wszelkiego rodzaju nowinkami w tej dziedzinie.
+            </ul>
+            <li>Programowanie <i data-feather="hash"></i></li>
+            <ul class="list__text">
+              Jestem pozytywnie nastawiony do tego, jest tyle informacji do
+              przyswojenia, nie mogę się doczekać. Nie sądziłem, że aż tak mi
+              się spodoba.
+            </ul>
+          </ol>
+        </div>
+      </article>
+    </section>
+
+    <section class="section text">
+      <h2 class="section__header" id="Kontakt">Kontakt</h2>
+      <div class="section__contact--icon"><i data-feather="mail"></i></div>
+      <p class="section__contact">Napisz do mnie:</p>
+      <a
+        class="section__contact--link"
+        href="mailto:adrianjaroszuk571@gmail.com"
+      >
+        adrianjaroszuk571@gmail.com
+      </a>
+      <div class="section__contact--icon"><i data-feather="facebook"></i></div>
+      <p class="section__contact">Napisz do mnie:</p>
+      <div class="section__contact--icon"><i data-feather="phone"></i></div>
+      <p class="section__contact">Zadzwoń:</p>
+      <a class="section__contact--link" href="tel:xxxxxxxxx"> xxxxxxxxx </a>
+    </section>
+    <button class="btn__return">
+      <a class="link" href="#body"><i data-feather="chevrons-up"></i></a>
+    </button>
+    <button class="btn__lightMode">
+      <span class="themeName">Włącz tryb jasny!</span>
+    </button>
+    <button class="btn__menuHide--icon">
+      <i data-feather="menu"></i>
+    </button>
+
+    <footer class="footer">
+      &copy;Copyright by Adrian Jaroszuk 2022 All rights reserved.
+    </footer>
+  </body>
+  <script>
+    feather.replace();
+  </script>
+</html>

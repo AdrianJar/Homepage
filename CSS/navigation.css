@@ -1,0 +1,33 @@
+.navigation {
+  border-bottom: #fb8c00 solid;
+  border-radius: 20px;
+  padding-top: 1px;
+}
+
+.navigation__hidden {
+  visibility: hidden;
+}
+
+.navigation__list {
+  padding: 0px;
+}
+
+.navigation__item {
+  font-size: 18px;
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.navigation__icon {
+  width: 18px;
+  height: 18px;
+}
+
+.navigation__listItem:hover {
+  border: 1px;
+  border-radius: 20px;
+  box-shadow: rgb(255, 170, 0, 0.5) 3px 3px 6px 0px inset,
+    rgba(255, 170, 0, 0.5) -3px -3px 6px 1px inset;
+}
